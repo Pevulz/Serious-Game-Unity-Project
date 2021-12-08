@@ -15,7 +15,7 @@ public class MoveToNextLevel : MonoBehaviour
     // Update is called once per frame
     public void LevelNext()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 3)
+        if (SceneManager.GetActiveScene().buildIndex == 6)
         {
             SceneManager.LoadScene("Levels");
         }
