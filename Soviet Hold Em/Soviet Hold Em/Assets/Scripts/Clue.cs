@@ -26,7 +26,7 @@ public class Clue : MonoBehaviour
         if (collision.gameObject.tag == "Player") { //when player touches game object
     
             Destroy(item); //destroys itself 
-            Instantiate(rat, new Vector3(-1.15f, -2.52f, 0f), transform.rotation); //spawn rat on x,y,z
+            Instantiate(rat, new Vector3(-3f, -5.8f, 0f), transform.rotation); //spawn rat on x,y,z
         }
     }
 }
