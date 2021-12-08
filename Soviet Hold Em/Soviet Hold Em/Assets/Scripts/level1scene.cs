@@ -8,6 +8,6 @@ public class level1scene : MonoBehaviour
 
     public void firstlevel()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("Level 1");
     }
 }
