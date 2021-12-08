@@ -17,6 +17,8 @@ public class Movement : MonoBehaviour
     {
         if (rigid == null)
             rigid = GetComponent<Rigidbody2D>();
+
+        rigid.freezeRotation = true;
         
     }
 
@@ -41,13 +43,8 @@ public class Movement : MonoBehaviour
 
     private void Flip()
     {
-        //Vector3 playerScale = transform.localScale;
-        //playerScale.x = playerScale.x * -1;
-        //transform.localScale = playerScale;
-
         transform.Rotate(0, 180, 0);
         isFacingRight = !isFacingRight;
-
     }
 
     private void Jump()
