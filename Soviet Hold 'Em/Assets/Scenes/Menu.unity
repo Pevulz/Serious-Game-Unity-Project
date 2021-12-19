@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 29880621}
   - component: {fileID: 29880620}
   - component: {fileID: 29880619}
+  - component: {fileID: 29880622}
   m_Layer: 5
   m_Name: Instructions
   m_TagString: Untagged
@@ -269,6 +270,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29880617}
   m_CullTransparentMesh: 1
+--- !u!95 &29880622
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29880617}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &47326421
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,12 +499,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2321,10 +2342,10 @@ RectTransform:
   m_Father: {fileID: 1736594728}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.059000004, y: 0.24978036}
+  m_AnchorMin: {x: 0.058000002, y: 0.16700001}
   m_AnchorMax: {x: 0.9532777, y: 0.8458536}
-  m_AnchoredPosition: {x: 0.49996948, y: -1.0868988}
-  m_SizeDelta: {x: 1, y: -7.200203}
+  m_AnchoredPosition: {x: 1, y: -1.9588928}
+  m_SizeDelta: {x: -0.000119924545, y: -5.456299}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1345346693
 MonoBehaviour:
