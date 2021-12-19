@@ -1160,7 +1160,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &854223016
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1441,7 +1441,11 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Hello Agent,
 
-    You''re heading into enemy '
+    You''re heading onto enemy grounds. Use the arrow keys
+    to move and space bar to jump as you descend down to retrieve a file while avoiding
+    enemy capture. If capture by an enemy, the game will restart. This is a covert
+    mission, agent, so you will not be recieving any weaponry. Grab the file and
+    get out off there.'
 --- !u!222 &948573132
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1764,7 +1768,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.1345, y: -27}
+  m_AnchoredPosition: {x: 7.1345, y: -30.9}
   m_SizeDelta: {x: 489.0701, y: 204.3492}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1183556150
@@ -1789,7 +1793,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 19
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1800,15 +1804,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '            Hello Agent,
+  m_Text: '               Hello Agent,
 
     This is a two-part mission. For the first
     part, drive the car by using the arrow keys and make two right turns at each
     intersection. Once making the second turn, drive straight until you trigger the
-    second part of the mission. During the second part of the mission, you have 5
-    seconds to click a button on the screen to give your character a mask and click
-    on another button to move on. If you go past the 5 second threshold, the mission
-    would restart.'
+    second part of the mission. Warning: The UP key is to move forward, DOWN is to
+    move backwards. LEFT and RIGHT are turn keys, they don''t move the car foward
+    or backward, only turn. During the second part of the mission, you have to click
+    a red button on the screen and to click on a white button to move on under 5
+    seconds. If you go past the 5 second threshold, the mission would restart.'
 --- !u!222 &1183556151
 CanvasRenderer:
   m_ObjectHideFlags: 0
