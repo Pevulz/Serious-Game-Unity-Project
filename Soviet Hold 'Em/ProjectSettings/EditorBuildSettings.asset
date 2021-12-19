@@ -14,16 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 4d1a16bbaedc06a4eaeef558ca55a2bc
-  - enabled: 1
-    path: Assets/Scenes/Dead Drop.unity
-    guid: 22be700be3c311c428a7c811b100fdcf
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
     guid: 449b11c834e915d42a97809c1ed6ddcc
   - enabled: 1
     path: Assets/Scenes/Level 2b.unity
     guid: 561617677d03451429f25481e29d88cc
-  - enabled: 1
-    path: Assets/Scenes/Five Minutes.unity
-    guid: f44ca8424de952e409ea410aedc216de
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
