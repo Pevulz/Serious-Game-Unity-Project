@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -272,13 +272,13 @@ MonoBehaviour:
     height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -591,13 +591,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\clam\Desktop\Serious-Game-Unity-Project\Soviet Hold
     'Em
@@ -605,8 +605,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 585f0000
-    m_LastClickedID: 24408
+    m_SelectedIDs: 5c5f0000
+    m_LastClickedID: 24412
     m_ExpandedIDs: 00000000385f00003a5f00003c5f00003e5f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -662,7 +662,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000f2f3ffff34950000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -765,7 +765,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2a4cfeffe64cfefffa4dfeffb44efefffe4efeff5450feff7650fefff050fefff450feff2051feff2651feff3051feffd451feff2852feff8652feff3a53feffa253feff0654feff5654feffa054feff8e62feffe062feff3e63feffa663feffbc75feff7877feffb877feff927afeffdc7afeffee7afeff0e7bfeff847bfeff887bfeffae7bfeffb27bfeffb67bfeffbc7ffeff0680feff1c80feff4080feffba80feffc280feffec80fefff480fefffc80feffa881feff6c82feffb682feff2e84feffac84feffb484feffe484feffee84fefffc84feff9085feff5c86feff048dfeffc48dfeffcc8dfeff4296feff12befefffcbffeff5cc2feff6ee6feff76ebfeffcceefefff0eefeff3eeffeff56fffeffd000ffff1001ffff2a06ffffa436ffffaa3dffffea5effffd860ffff7671ffff1e74ffffa27effff107fffff7081ffff0a82ffff7e82ffff1086ffffece2ffff0ee9ffff16fbffff905e0000cc5e0000a0840000b0840000ec840000748a00009e930000ca930000da9300000694000028940000c895000004960000149700007ea400003aab0000a6ac0000c2ac0000d2ac0000daac000006ad000002b300003eb300006ab300008cb300002abf0000
+      m_ExpandedIDs: d4f0ffff00f2ffff20f2ffff96f2ffff9af2ffffc0f2ffffc4f2ffffc8f2ffffa8f3ffffcaf3ffff44f4ffff48f4ffff74f4ffff78f4ffff84f4ffffbaf6ffff04f7ffff58f8ffff7af8fffff4f8fffff8f8ffff24f9ffff28f9ffff34f9ffff16fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1036,9 +1036,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1228.4072, y: 460.48325, z: -3.9337564}
+    m_Target: {x: 914.6476, y: 603.76294, z: -4.2255783}
     speed: 2
-    m_Value: {x: 1228.4072, y: 460.48325, z: -3.9337564}
+    m_Value: {x: 914.6476, y: 603.76294, z: -4.2255783}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1089,9 +1089,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 806.1599
+    m_Target: 805.69385
     speed: 2
-    m_Value: 806.1599
+    m_Value: 805.69385
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1177,7 +1177,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
