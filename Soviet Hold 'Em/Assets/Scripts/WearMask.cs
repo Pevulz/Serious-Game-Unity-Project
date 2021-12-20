@@ -17,7 +17,6 @@ public class WearMask : MonoBehaviour
         if(timer > 0) {
             timer -= Time.deltaTime;
             Debug.Log(timer);
-         
         }
 
         if(timer <= 0)
